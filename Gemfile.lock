@@ -229,13 +229,13 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_magick (4.12.0)
-    mini_mime (1.1.2)
+    mini_mime (1.1.5)
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
     minitest (5.19.0)
     msgpack (1.6.0)
     nenv (0.3.0)
-    net-imap (0.3.6)
+    net-imap (0.3.7)
       date
       net-protocol
     net-pop (0.1.2)
@@ -298,7 +298,7 @@ GEM
       actionpack (>= 5.0.1.rc1)
       actionview (>= 5.0.1.rc1)
       activesupport (>= 5.0.1.rc1)
-    rails-dom-testing (2.1.1)
+    rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
@@ -315,8 +315,10 @@ GEM
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
-    rails_autolink (1.1.6)
-      rails (> 3.1)
+    rails_autolink (1.1.8)
+      actionview (> 3.1)
+      activesupport (> 3.1)
+      railties (> 3.1)
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
     railties (6.1.7.4)
@@ -443,7 +445,7 @@ GEM
       selenium-webdriver (~> 4.0, < 4.11)
     webrick (1.8.1)
     websocket (1.2.9)
-    websocket-driver (0.7.5)
+    websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     will_paginate (4.0.0)
